@@ -3,9 +3,19 @@ header {
     background: #f0f0f0;
     border: 1px solid #d3d3d3;
     padding: 12px 0;
-    .logo {
+    a:hover {
+        text-decoration: none;
+    }
+    .container-header {
+        max-width: 1300px;
         width: 100%;
+        margin: auto;
+    }
+  
+    .logo {
+        width: 120px;
         height: auto;
+        margin: auto;
     }
     .navbar-nav {
         width: 90%;
@@ -17,7 +27,6 @@ header {
         font-size: 12px;
         text-transform: uppercase;
         letter-spacing: 1px;
-        
     }
     .footer_tlf {
         padding: 0;
@@ -37,6 +46,12 @@ header {
         height: 17px;
     }
    
+    .head_tlf, .cell_btn {
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
     .navbar-nav>li {
         margin: auto;
     }

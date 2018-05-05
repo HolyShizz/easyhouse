@@ -1,0 +1,85 @@
+.first_block {
+	background: url('../images/fon1.jpg') no-repeat center  top;
+	background-size: cover;
+	width: 100%;	
+
+
+.enter_iphone {
+	margin-top: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.enter_iphone img {
+	width: 90%;
+	height: auto;
+	overflow: hidden;
+}
+.cell_btn {
+	padding: 0;
+	margin: 10% auto;
+	text-align: center;
+}
+.slogan {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.iiph_btn {
+	width: 40%;
+	height: 85px;
+	position: absolute;
+	top: 60%;
+	/*transform: translatex(50%);*/
+	background: url('../images/iphon_btn.png')no-repeat;
+	text-align: center;
+	line-height: 70px;
+	color: #FFF;
+	background-size: 100% 100%;
+}
+.slogan .sl_f {
+	font-family: ProximaNovaThin;
+	color: #FFF;
+	font-size: 26px;
+	letter-spacing: 0.2px;
+	text-shadow: 0px 0px 11px rgba(23, 17, 17, 1);
+	position: relative;
+	margin-bottom: 45px;
+}
+
+.sl_f:after {
+	content: "";
+	width: 90px;
+	height: 1px;
+	background: #06a4fe;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+}
+
+.sl_t {
+	font-family: ProximaNovaThin;
+	color: #FFF;
+	font-size: 26px;
+	text-transform: uppercase;
+	letter-spacing: 0.2px;
+}
+.sl_t span {
+	background: #06a4fe;
+	display: inline-block;
+	padding: 3px 1px;
+}
+
+.cell_btn a {
+	height: 66px;
+	width: 270px;
+	line-height: 66px;
+	font-size: 17px;
+	border-radius: 35px;
+	margin-top: 15%;
+	margin: auto;
+}
+
+}

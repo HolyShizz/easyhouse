@@ -4,7 +4,6 @@
 	color: #FFF;
 	font-size: 12px;
 	text-transform: uppercase;
-	display: block;
 	width: 160px;
 	height: 40px;
 	line-height: 40px;
@@ -20,6 +19,7 @@
 	-moz-box-shadow: 0px 10px 16px -8px rgba(14, 136, 247, 1);
 	box-shadow: 0px 10px 16px -8px rgba(14, 136, 247, 1);
 }
+
 /*Кнопка активации меню в хедере*/
 #custom-bs4-toggler-icon {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(20, 142, 209)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
@@ -27,7 +27,7 @@
 
 .custom-bs4-toggler-button {
 	position: absolute;
-	top: 10px;
+	
 	left: 10px;
 }
 
@@ -94,7 +94,7 @@
 	backface-visibility: hidden;
 	-moz-osx-font-smoothing: grayscale;
 	position: relative;
-	overflow: hidden;
+    overflow: hidden;
 }
 
 .hvr-underline-from-center:before {
