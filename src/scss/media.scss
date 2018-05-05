@@ -1,0 +1,40 @@
+@media (min-width:1200px) {
+    header {
+        .logo {
+            width: 120px;
+            height: auto;
+        }
+        .navbar-collapse.collapse,
+        .head_tlf {
+            padding: 0;
+        }
+    }
+}
+@media (max-width:1200px) {
+    header {
+        .logo {
+            width: 120px;
+            height: auto;
+        }
+        .navbar-collapse.collapse,
+        .head_tlf {
+            padding: 0;
+        }
+    }
+}
+
+@media (max-width:992px) {
+    header {
+        .navbar-nav>li>a {
+            font-family: ProximaNovaThin;
+            color: #2f2f2f;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .logo {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

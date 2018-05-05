@@ -10,7 +10,7 @@ module.exports = {
   entry: './src/js/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.[hash].js',
+    filename: 'bundle.js',
     publicPath: '/',
   },
   module: {
@@ -67,7 +67,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              outputPath: 'img/',
+              outputPath: 'images/',
               name: '[name].[ext]',
             },
           },
@@ -105,8 +105,8 @@ module.exports = {
     }),
     new CopyWebpackPlugin([
       {
-        from: path.join(__dirname, 'src', 'img/favicon'),
-        to: 'img/favicon',
+        from: path.join(__dirname, 'src', 'images/favicon'),
+        to: 'images/favicon',
       },
     ]),
     new UglifyJsPlugin({

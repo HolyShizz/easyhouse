@@ -1,13 +1,6 @@
-$(document).ready(function(){
-  $('.slick-carousel').slick({
-    arrows:true,
-    fade:true,
-    speed:500,
-    cssEase: 'linear',
-  });
-});
-$( "div.pure-u-1-4" ).click(function(e) {
-  e.preventDefault();
-  $("div.pure-u-1-4").removeClass('active-menu');
-  $( this ).addClass('active-menu');
-});
+import 'jquery';
+import '../vendor/bootstrap.bundle';
+import './script_my';
+import '../../css/bootstrap.min.css';
+import '../../scss/main.scss';
+import '../../css/media.css';

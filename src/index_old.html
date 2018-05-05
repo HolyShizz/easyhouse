@@ -2,71 +2,83 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <title>EasyHouse</title>
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
+	<meta charset="UTF-8">
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<title>EasyHouse</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="css/animate.css" />
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	    crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+	    crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+	    crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<link rel="stylesheet" type="text/css" href="css/media.css" />
+
+
 </head>
 
 <body>
-    <header>
-        
-            <div class="row justify-content-center">
-                <div class="col-xl-1 col-md-2 col-lg-2 col-6 align-self-center">
-                        <img class="logo" src="./images/logo.png" alt="EasyHouse">
-                </div>
-                <div class="col-xl-6 col-md-7 col-lg-7 col-12 align-self-center order-2">
+	<header class="header_my">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-8 col-md-12 col-lg-9 col-12">
+					<nav class="navbar navbar-expand-md navbar-light">
+						<button class="navbar-toggler custom-bs4-toggler-button" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+						    aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon" id="custom-bs4-toggler-icon"></span>
+						</button>
+						<a class="navbar-brand" href="/">
+							<img class="logo" src="./images/logo.png" alt="EasyHouse">
+							
+						</a>
 
-                    <nav class="navbar navbar-expand-sm navbar-light">
-                        <button class="navbar-toggler custom-bs4-toggler-button" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon" id="custom-bs4-toggler-icon"></span>
-                        </button>
+						<div class="collapse navbar-collapse" id="navbarText">
+							<ul class="navbar-nav ml-auto">
+								<li class="active">
+									<a class="hvr-underline-from-center go_to" href="#whatis">Что такое Умный дом</a>
+								</li>
+								<li>
+									<a class="hvr-underline-from-center go_to" href="#advantages">Преимущества</a>
+								</li>
+								<li>
+									<a class="hvr-underline-from-center go_to" href="#primery">Почему мы</a>
+								</li>
+								<li>
+									<a class="hvr-underline-from-center go_to" href="#">Контакты</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
 
-                        <div class="collapse navbar-collapse" id="navbarText">
-                            <ul class="navbar-nav ">
-                                <li class="active">
-                                    <a class="hvr-underline-from-center go_to" href="#whatis">Что такое Умный дом</a>
-                                </li>
-                                <li>
-                                    <a class="hvr-underline-from-center go_to" href="#advantages">Преимущества</a>
-                                </li>
-                                <li>
-                                    <a class="hvr-underline-from-center go_to" href="#primery">Почему мы</a>
-                                </li>
-                                <li>
-                                    <a class="hvr-underline-from-center go_to" href="#">Контакты</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-
-                <div class="col-xl-4 col-md-12 col-lg-3 col-sm-12 col-6 order-sm-2 align-self-center">
-                    <div class="row justify-content-around align-content-center">
-                        <div class="col-xl-6 col-lg-12 col-md-4 col-sm-6 align-self-center">
-                            <div class="head_tlf">
-                                <a class="hvr-pulse-shrink" href="tel:0933490574">
-                                    <i class="i_tlf"></i>+38(093) 349-05-74</a>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-12 col-md-4 col-sm-6 align-self-center">
-                            <div class="cell_btn">
-                                <a class="hvr-float-shadow header-a-margin-auto" data-toggle="modal" data-target="#myModal_zvonok" href="#">Обратный звонок</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-    </header>
+				<div class="col-xl-4 col-md-12 col-sm-6 col-lg-3 col-sm-12 align-self-center">
+					<div class="row justify-content-center align-content-center">
+						<div class="col-xl-6 col-lg-12 col-md-6 col-sm-12 align-self-center">
+							<div class="head_tlf">
+								<a class="hvr-pulse-shrink" href="tel:0933490574">
+									<i class="i_tlf"></i>093 349 05 74</a>
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-12 col-md-6 col-sm-12">
+							<div class="cell_btn_header">
+								<a class="hvr-float-shadow header-a-margin-auto" data-toggle="modal" data-target="#myModal_zvonok" href="#">Обратный звонок</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
 
 
-    <!--новый уровень комфорта
+	<!--новый уровень комфорта-->
 	<section class="first_block">
 		<div class="container">
 			<div class="row justify-content-between align-items-center">
@@ -93,8 +105,8 @@
 			</div>
 		</div>
 	</section>
--->
-    <!--Что такое Умный дом
+
+	<!--Что такое Умный дом-->
 	<section class="whatis_block" id="whatis">
 		<div class="container">
 			<div class="row">
@@ -121,8 +133,8 @@
 			</div>
 		</div>
 	</section>
--->
-    <!--В Умный дом можно превратить
+
+	<!--В Умный дом можно превратить-->
 	<section class="three_block">
 		<div class="container">
 			<div class="row">
@@ -134,8 +146,8 @@
 			</div>
 		</div>
 	</section>
--->
-    <!--Пакеты услуг
+
+	<!--Пакеты услуг-->
 	<section class="pacets_block">
 		<div class="decor_left"></div>
 		<div class="decor_right"></div>
@@ -197,8 +209,8 @@
 			</div>
 		</div>
 	</section>
--->
-    <!--Решения для бизнеса
+
+	<!--Решения для бизнеса-->
 	<section class="reshenie_block">
 		<div class="container">
 			<div class="row">
@@ -222,8 +234,8 @@
 			</div>
 		</div>
 	</section>
--->
-    <!--Преимущества Умного дома
+
+	<!--Преимущества Умного дома-->
 	<section class="advantages_block" id="advantages">
 		<div class="decor_adv_l wow fadeInLeft"></div>
 		<div class="decor_adv_r wow fadeInRight"></div>
@@ -274,8 +286,8 @@
 			</div>
 		</div>
 	</section>
--->
-    <!--идальное решение
+
+	<!--идальное решение-->
 	<section class="idealreshenie_block">
 		<div class="container">
 			<div class="row">
@@ -310,8 +322,8 @@
 			</div>
 		</div>
 	</section>
--->
-    <!--В Умный дом можно превратить
+
+	<!--В Умный дом можно превратить-->
 	<section class="primery_block" id="primery">
 		<div class="decor_left"></div>
 		<div class="decor_right"></div>
@@ -357,8 +369,8 @@
 			</div>
 		</div>
 	</section>
--->
-    <!--идальное решение
+
+	<!--идальное решение-->
 	<section class="skhema_block">
 		<div class="skhema_decor_l wow fadeInLeft"></div>
 		<div class="skhema_decor_r wow fadeInRight"></div>
@@ -419,8 +431,8 @@
 			</div>
 		</div>
 	</section>
--->
-    <!--вы получаете
+
+	<!--вы получаете-->
 	<section class="itog_block">
 		<div class="container wow fadeInUp">
 			<div class="row">
@@ -472,11 +484,11 @@
 			</div>
 		</div>
 	</section>
--->
-    <!--Остались вопросы?
+
+	<!--Остались вопросы?-->
 	<section class="question_block">
 		<div class="container">
-			<div class="row align-items-center">
+			<div class="row">
 				<div class="col-lg-6 col-md-12 col-sm-12 col-12 qb_left">
 					<div class="block_title_b wow fadeInLeft">
 						<h2>Остались вопросы?</h2>
@@ -535,35 +547,36 @@
 
 	</footer>
 
--->
-    <!-- Modal оставьте заявку-->
-    <div class="modal fade modal_z_block" id="myModal_zvonok" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-            <div class="modal-content">
 
-                <div class="zf_block">
-                    <div class="zfb_head">Пожалуйста,
-                        <br> введите ваши данные ниже</div>
-                    <p>Мы свяжемся с Вами в ближайшее время</p>
-                    <div class="modal_form" id="modal_form">
-                        <form id="modal_form" method="post" action="send.php">
-                            <input type="hidden" name="formData" value="Заявка с сайта EasyHouse">
-                            <input type="text" placeholder="Ваше Имя" name="name" />
-                            <input type="text" placeholder="Ваш телефон" name="phone" />
-                            <input type="text" placeholder="Ваш Email" name="email" />
+	<!-- Modal оставьте заявку-->
+	<div class="modal fade modal_z_block" id="myModal_zvonok" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<div class="modal-content">
 
-                            <button class="w_btn modal_btn send-btn">
-                                <span>Отправить</span>
-                            </button>
-                        </form>
-                    </div>
+				<div class="zf_block">
+					<div class="zfb_head">Пожалуйста,
+						<br> введите ваши данные ниже</div>
+					<p>Мы свяжемся с Вами в ближайшее время</p>
+					<div class="modal_form" id="modal_form">
+						<form id="modal_form" method="post" action="send.php">
+							<input type="hidden" name="formData" value="Заявка с сайта EasyHouse">
+							<input type="text" placeholder="Ваше Имя" name="name" />
+							<input type="text" placeholder="Ваш телефон" name="phone" />
+							<input type="text" placeholder="Ваш Email" name="email" />
 
-                </div>
-            </div>
-        </div>
-    </div>
+							<button class="w_btn modal_btn send-btn">
+								<span>Отправить</span>
+							</button>
+						</form>
+					</div>
 
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/wow.min.js" type="text/javascript"></script>
+	<script src="js/script_my.js" type="text/javascript"></script>
 
 </body>
 

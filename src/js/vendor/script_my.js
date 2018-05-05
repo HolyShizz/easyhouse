@@ -1,4 +1,5 @@
-new WOW().init();
+
+
 
   $('.go_to').click( function(){
   var scroll_el = $(this).attr('href');

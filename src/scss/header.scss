@@ -1,0 +1,44 @@
+header {
+    width: 100%;
+    background: #f0f0f0;
+    border: 1px solid #d3d3d3;
+    padding: 12px 0;
+    .logo {
+        width: 100%;
+        height: auto;
+    }
+    .navbar-nav {
+        width: 90%;
+        margin: auto;
+    }
+    .navbar-nav>li>a {
+        font-family: ProximaNovaThin;
+        color: #2f2f2f;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        
+    }
+    .footer_tlf {
+        padding: 0;
+        margin-left: auto;
+    }
+    .head_tlf a {
+        font-family: ProximaNovaThin;
+        color: #2f2f2f;
+        font-size: 17px;
+        line-height: 40px;
+    }
+    .head_tlf .i_tlf {
+        background: url('../images/icons/i_telefon.png')no-repeat center;
+        background-size: contain;
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+    }
+   
+    .navbar-nav>li {
+        margin: auto;
+    }
+  
+}
